@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dz_clientserver_011.RegistrationController">
+   <children>
+      <AnchorPane layoutY="99.0" prefHeight="300.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Label layoutX="217.0" layoutY="14.0" text="Registration" textFill="#804b4b">
+               <font>
+                  <Font name="Constantia" size="50.0" />
+               </font>
+            </Label>
+            <TextField fx:id="loginField" layoutX="250.0" layoutY="83.0" prefHeight="30.0" prefWidth="200.0" promptText="Login" />
+            <PasswordField fx:id="passwordField" layoutX="250.0" layoutY="126.0" prefHeight="30.0" prefWidth="200.0" promptText="Password" />
+            <PasswordField fx:id="repeatPasswordField" layoutX="250.0" layoutY="168.0" prefHeight="30.0" prefWidth="200.0" promptText="Repeat Password" />
+            <Button fx:id="registrationButton" layoutX="265.0" layoutY="213.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="169.0" style="-fx-background-color: #F39C63;" text="Registration">
+               <font>
+                  <Font name="Constantia" size="25.0" />
+               </font>
+            </Button>
+            <Label fx:id="errorLabel" layoutX="337.0" layoutY="269.0" text="error" textFill="#ff1515" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="216.0" layoutY="22.0" text="Email Client" textFill="WHITE">
+         <font>
+            <Font name="Constantia" size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="570.0" layoutY="22.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="116.0" style="-fx-background-color: #F39C63;" text="Back">
+         <font>
+            <Font name="Constantia" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
